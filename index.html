@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>EmployeeInfo</title>
+      <link rel="stylesheet" href="./style.css">
+
+
+</head>
+
+
+
+<body>
+      <div class="tableHead">
+            <p>EmployeeInfo</p>
+            <!-- <button type="button">Add</button> -->
+            <button style="margin-left: 500px" onclick="Popup()">Add </button>
+            <button style="margin-left: 200px" onclick="deleteFunction(event)">Delete</button>
+      </div>
+
+      <table id="myTable">
+            <thead>
+                  <th>employeeId</th>
+                  <th>employeeName</th>
+                  <th>employeePhoneno</th>
+                  <th>employeeGrade</th>
+            </thead>
+
+      </table>
+
+
+      <!-- <button type="button" onclick="myFunction()">Tryit</button> -->
+
+      <div id="popup">
+            <form id="details">
+                  <label for="EmployeeId">EmployeeId</label><input type="text" id="EmployeeId">
+                  <label for="EmployeeName">EmployeeName</label><input type="text" id="EmployeeName">
+                  <label for="EmployeePhoneno">EmployeePhoneno</label><input type="text" id="EmployeePhoneno">
+                  <label for="EmployeeGrade">EmployeeGrade</label><input type="text" id="EmployeeGrade">
+                  <button type="button" onclick="submitFunction()">Submit</button>
+            </form>
+      </div>
+
+
+      <script src="./script.js"></script>
+</body>
+
+
+
+</html>
